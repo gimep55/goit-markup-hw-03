@@ -1,0 +1,101 @@
+:root{
+    --primer-color: #2196F3;
+    --segundo-color:#FFFFFF;
+    --hero-color:#FFFFFF;
+    --tercer-color:#757575;
+    --cuarto-color:#212121;
+    --quinto-color:#2F303A;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    border: 1px solido black;
+}
+.text-decoration{
+    text-decoration: none;
+}
+p{
+    font-size: 14px;
+}
+body,aside, header, nav,main, section, footer, address{
+    margin: 0px;
+    width: 1600px;
+    
+    text-align: center;
+}
+.bloque_nav{
+    width: 1600px;
+    height: 80px;
+    margin:0;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.bloque_nav > .logo{
+    border-color:#2196F3 1px solido;
+    color:var(--primer-color);
+    font-size: 26px;
+}
+.nav_studio > .studio *{
+    color:var(--cuarto-color);
+    text-decoration: none;
+}
+.dir_studio > .dstudio *{
+    color:var(--segundo-color);
+    text-decoration: none;
+}
+.studio{
+    list-style: none;
+}
+.nav_contacto > .contac *{
+    color:var(--cuarto-color);
+    list-style: none;
+    text-decoration: none;
+}
+.contac{
+    list-style: none;
+}
+.nav_studio :hover{
+    color:var(--primer-color);
+}
+.dir_studio :hover{
+    color:var(--primer-color);
+}
+.nav_contacto :hover{
+    color:var(--primer-color);
+}
+.titulo {
+    background-color: #2F303A;
+}
+.direccion {
+    background-color: #2F303A;
+}
+h1{
+    color: var(--segundo-color);
+    font-size: 44px;
+}
+h2{
+      font-size: 36px;
+}
+h3{
+     font-size: 14px;
+}
+
+.button{
+    background-color:#2196F3;
+    color: var(--segundo-color);
+}
+.button :hover{
+    color: var(--quinto-color)
+}
+.beneficios > .ben-in{
+    color:var(--cuarto-color); 
+}
+.beneficios > .ben-on{
+    color:var(--tercer-color); 
+}
+.oferta > .ofertat{
+    color:var(--cuarto-color); 
+}
+.oferta > .ofertad{
+    color:var(--tercer-color); 
+}
