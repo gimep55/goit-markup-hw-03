@@ -4,80 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOLUCIONES EFICACES PARA SU NEGOCIO</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleais.com/css2?family=Roboto:wght@100;300;400;500;500;700;900&display=swap" 
+    rel="stylesheet"/>
 </head>
+
 <body>
-    <aside class="bloque_nav">
-    <a herf="#" class="logo">Webstudio</a>
-   <header>
-<nav> 
-<ul class="nav_studio">
-    <li class="studio"><a class="text-decoration" href="#" target="_blank" rel="noopener noreferrer"><p>Studio</p></a></li>
-    <li class="studio"><a class="text-decoration" href="portafolio.html" target="_blank" rel="noopener noreferrer"><p>Portafolio</p></a></li>
-    <li class="studio"><a class="text-decoration" href="#" target="_blank" rel="noopener noreferrer"> <p>Contactos</p> </a></li>
+   <!--header section  -->
+<header class="nav">
+<nav class="nav_container">
+    <!-- Logo -->
+    <a herf="./index.html" class="navbar-grand"><span class="logo"><h3>WebStudio</h3></span></a>
+    <!-- menu -->
+<ul class="navigation__list list">
+    <li><a class="page current"  href="./index.html">Estudio</a></li>
+    <li><a class="page" href="./portafolio.html">Portafolio</a></li>
+    <li><a class="page"href="">Contactos</a></li>
 </ul>
-<ul class="nav_contacto">
-    <li class="contac"><a class="text-decoration" href="mailto:info@devstudio.com"><p>mail:info@devstudio.com</p> </a></li> 
-    <li class="contac"><a  class="text-decoration" href="tel:+12127724150"> <p>+12127724150</p> </a></li>  
-</ul> 
-</nav> 
-</header> 
-</aside>
+<!-- contacts -->
+<ul class="contacts__list list">
+    <li><a class="item" href="">info@devstudio.com</a></li>
+    <li><a class="item" href="">+38 096 111 11 11</a></li>
+</ul>
+</nav>
+</header>
+<!-- main content section -->
 <main>
-<section class="titulo">
-    <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-    <button type="button" class="button">Ordenar un servicio</button>
+    <!-- Hero section -->
+<section class="hero">
+    <div class="title"><h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1></div>
+    <button class="button-primary" type="button">Solicita nuestro servicio</button>
 </section>
-<section>
-    <h2>Nuestras ventajas</h2>
-    <ul class="beneficios">
-        <li class="bene-in"><h3>ATENCION A LOS DETALLES</h3>  <p class="bene-on">Nos adentramos en todos los detalles y procesos de 
-        su negocio, para asi desarrollaruna solucion a su medida</p></li>
-        <li class="bene-in"><h3>PUNTUALIDAD</h3><p class="bene-on">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante 
-        de la empresa respetar su tiempo y los plazos acordados</p> </li>
-        <li class="bene-in"><h3>PLANIFICACION</h3><p class="bene-on">Usted podra observar y participar en cada fase 
-        del desarrollo y aplicacion de soluciones.</p> </li>
-        <li class="bene-in"><h3>TEGNOLOGIAS MODERNAS</h3><p class="bene-on">Usamos herramientas innovadoras para resolver las tareas asignadas. 
-        Es hora de simplificasr los procesos laborales</p></li>   
+<!-- Benefits section -->
+<section class="section">
+    <div class="container_list">
+    <ul class="benefist_list">
+        <li><h3 class="ventajas">atención al detalles</h3> 
+    <p class="description">
+             entramos en todos los detalles y procesos de su negocio para
+            desarrollar una solución personalizada.</p>
+       </li>
+       <li>
+          <h3 class="ventajas">puntualidad</h3> 
+             <p class="description">
+                Con nosotros, puede sentirse seguro y protegido. Un principio importante de
+                la empresa: respeta tu tiempo y respeta los plazos acordados.
+            </p>
+      </li>
+      <li>
+         <h3 class="ventajas">planificación</h3> 
+            <p class="description">
+            Podrás observar y participar en cada fase de
+            desarrollo e implementación de soluciones.
+           </p>
+      </li>
+      <li>
+        <h3 class="ventajas">tecnologías modernas</h3> 
+           <p class="description">
+            Utilizamos herramientas innovadoras para resolver las tareas asignadas. Es tiempo de
+            simplificar los procesos de trabajo.
+           </p>
+      </li> 
     </ul>
-</section>  
-<section>
-    <h2>Aque nos dedicamos</h2>
-    <ul>
-        <li><img src="./img/computador.jpg" alt="Aplicacion para escritorio"width="370"></li>
-        <li><img src="./img/telefono.jpg" alt="Aplicacion para telefono"width="370"></li>
-        <li><img src="./img/tablet.jpg" alt="Aplicacion para tablet"width="370"></li>
+</div>
+</section>
+<!-- what we do section -->
+<section class="servicio">
+    <h2 class="servicio_title">A que nos dedicamos</h2>
+   
+    <!-- images -->
+    <ul class="benefist_list">
+        <li class="img_servicio">
+            <img src="./img/computador.jpg" alt="desktop apps"width="370"/>
+        </li>
+
+        <li class="img_servicios">
+            <img src="./img/telefono.jpg" alt="mobile apps"width="370"/>
+        </li>
+
+        <li class="img_servicioss">
+            <img 
+               src="./img/tablet.jpg"
+               alt="design & solutions"
+               width="370"
+            />
+        </li>
     </ul>
-    </section>
-    <section>
-    <h2> Nuestro Equipo</h2>
-    <ul class="oferta">
-        <li><img src="./img/christopher.jpg" alt="product Designer"width="270">
-            <h3 class="ofertat">Andres Cubo</h3>
-            <p class="ofertad">Diseñador de productos</p></li>
-        <li><img src="./img/kylie.jpg" alt="Frontend Developer"width="270">
-            <h3 class="ofertat">Carla Palacios</h3>
-            <p class="ofertad">Desarrolladora Frontend</p></li>
-        <li><img src="./img/ryan.jpg" alt="Marketing"width="270">
-            <h3 class="ofertat">Mario Dorado</h3>
-            <p class="ofertad">Marketing</p></li>
-        <li><img src="./img/tyler.jpg" alt="UI Designer"width="270">
-            <h3 class="ofertat">Pablo Mijangos</h3>
-            <p class="ofertad">Diseñador IU</p></li>
+
+</section>
+<!-- our team -->
+<section class="section_team-section">
+    <h2 class="servicio_title"> Nuestro equipo</h2>
+    <div class="container">
+    <!-- cards -->
+    <ul class="benefist_list">
+        <li class="img_service">
+            <img src="./img/christopher.jpg" alt="first Member"width="270">
+            <h3>Christopher Walker</h3>
+            <p>Product Desinger</p>
+        </li>
+        <li class="img_service">
+             <img src="./img/kylie.jpg" alt="Frontend Developer"width="270">
+            <h3>Carla Palacios</h3>
+            <p>Desarrolladora Frontend</p>
+        </li>
+        <li class="img_service">
+            <img src="./img/ryan.jpg" alt="Marketing"width="270">
+            <h3>Mario Dorado</h3>
+            <p>Marketing</p>
+        </li>
+        <li class="img_service">
+            <img src="./img/tyler.jpg" alt="UI Designer"width="270">
+            <h3>Pablo Mijangos</h3>
+            <p>Diseñador IU</p>
+        </li>
     </ul>
-    </section>
+   </div>
+</section>
 </main>
-<footer class="direccion">
-    <a herf="#" class="logo">Webstudio</a>
-    <address>
-    <ul class="dir_studio">
-        <li class="dstudio"><a href="enlace google map" target="_blank" rel="noopener noreferrer">
-        <p> Calz. Ticomán 500, Ciudad de México, CDMX, México</p></li>
-        <li class="dtudio"><a href="mailto:info@devstudio.com"><p>mail:info@devstudio.com</p> </a></li>
-        <li class="dstudio"><a href="tel:+12127724150"><p>+12127724150</p></a></li>
-    </ul>
+ <footer>
+
+<div class="hero_address">
+    <a herf="./index.html" class="navbar-grand_address"><span class="logo_address"><h3 class="estudioweb" >WebStudio</h3></span></a>
+   <address class="container_address"> 
+          <ul >
+             <li class="address_list">
+                <a  href="#" target="_blank" rel="noopener noreferrer" class="contact">
+                Calz. Ticomán 500, Ciudad de México, CDMX, México>
+                </a>
+            </li>
+    
+        <li class="address_list">
+            <a href="mailto:info@devstudio.com" class="contact" >mail:info@devstudio.com</a>
+        </li>
+
+        <li class="address_list">
+            <a  href="tel:+12127724150" class="contact">+38 096 111 11 11</a>
+        </li>
     </address>
+     </ul>
+</div>
 </footer>
 </body>
 </html>
